@@ -1,0 +1,45 @@
+
+#sidebar-wrapper {
+    min-height: 100vh;
+    margin-right: -15rem;
+    -webkit-transition: margin .25s ease-out;
+    -moz-transition: margin .25s ease-out;
+    -o-transition: margin .25s ease-out;
+    transition: margin .25s ease-out;
+  }
+  
+  #sidebar-wrapper.toggled {
+    margin-right: 0;
+  }
+  
+  #page-content-wrapper {
+    min-width: 100vw;
+  }
+  
+  .sidebar-heading {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 0.75rem 1.25rem;
+  }
+  
+  .list-group-item-action {
+    color: #555;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .list-group-item-action:hover {
+    color: #333;
+    background-color: #f5f5f5;
+    cursor: pointer;
+  }
+  
+  .navbar {
+    padding: 0.5rem 1rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
