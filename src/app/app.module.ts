@@ -10,6 +10,8 @@ import { LoginComponent } from './components/login/login.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { AuthService } from './service/auth.service';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
+import { HttpClient } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -24,6 +26,8 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
     FormsModule,
     ReactiveFormsModule,
     RouterModule,
+    HttpClient,
+    HttpClientModule
   ],
   providers: [AuthService],
   bootstrap: [AppComponent]
